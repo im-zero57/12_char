@@ -4,11 +4,9 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(void) {
-	char code1 = 'A';
-	int code2 = 65;
+	char str[30] = "happy C programming";
 	
-	printf("code1 = %c, (%d)\n",code1, code1);
-	printf("code2 = %c, (%d)\n",code2, code2);
+	printf("문자열 \"%s\"의 길이 : %i",str,strlen(str));
 	
 	return 0;
 }
